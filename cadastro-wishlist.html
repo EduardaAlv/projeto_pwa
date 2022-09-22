@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste HTML</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+
+<body>
+
+    <form action="" method="POST" name="dados">
+        <h1>Cadastro:</h1>
+        <label for="nome">O que deseja:</label>
+        <input type="text" name="nome" placeholder="Informe uma descrição do seu desejo" id="nome" size="50" />
+        <br/>
+        <label for="nome">Valor:</label>
+        <input type="number" name="valor" placeholder="Informe o valor" id="valor" size="50" />
+
+        <div>
+            <input type="button" id="btnSalvar"onclick="salvar()" value="Adicionar">
+            <input type="button" onclick="cancelar()" value="Cancelar">
+        </div>
+    </form>
+
+    <table name="table">
+        <caption></caption>
+        <thead>
+            <tr>
+                <th>Desejo</th>
+                <th>Descrição do Desejo</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+
+        <tbody id="tbody">
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">Soma dos desejos:</td>
+                <td id="soma" class="quantidade">0</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <nav>
+        <ul>
+            <li> <a href="tela-principal.html">Voltar</a> </li>
+        </ul>
+    </nav>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Minha PWA</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="manifest" href="/manifest.webmanifest" crossorigin="use-credentials"/>
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="PWA">
+    <link rel="apple-touch-icon" sizes="72x72" href="/imagens/icones/ios/72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/imagens/icones/ios/144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/imagens/icones/ios/152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/imagens/icones/ios/180.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/imagens/icones/ios/192.png">
+    <link rel="stylesheet" href="/estilos/estilos.css" />
+</head>
+
+<body style="background-color: rgb(28, 29, 29);
+margin: auto;
+max-width: 300px;">
+    <h1 style="background-color: rgb(53, 53, 53); 
+    color: rgb(225, 228, 228);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 30px;
+    border: 20px;
+    border-radius: 20px;
+    padding: 30px 30px;
+    text-shadow: 0 0 0.9em rgb(146, 146, 146), 0 0 0.8em rgb(134, 134, 134)">Página Principal</h1>
+
+    <nav>
+        <ol style="background-color: rgb(60, 61, 61);
+        width: 300px;
+        height: 60px;
+        border: 50px;
+        border-radius: 20px;
+        padding: 30px 30px;
+        text-align: center;">
+            <li style="font-family: Arial, Helvetica, sans-serif;
+            color:rgb(75, 223, 131);
+            font-size: 120%;
+            padding-left: 10px;           
+            ">
+                <a href="cadastro-gastos.html" style="font-family: Arial, Helvetica, sans-serif;
+            color:rgb(75, 223, 131);
+            text-decoration: none;
+            padding-left: 10px;                     
+            " onMouseOver="this.style.background='rgb(75, 223, 131)'; this.style.color='black' "
+                    onMouseOut="this.style.background='rgb(60, 61, 61)'; this.style.color='rgb(75, 223, 131)'">Acessar
+                    os seus Gastos</a>
+            </li>
+            <li style="font-family: Arial, Helvetica, sans-serif;
+            color:rgb(75, 223, 131);
+            font-size: 120%;
+            padding-left: 10px;           
+            ">
+                <a href="cadastro-wishlist.html" style="font-family: Arial, Helvetica, sans-serif;
+            color:rgb(75, 223, 131);
+            text-decoration: none;
+            padding-left: 10px;                     
+            " onMouseOver="this.style.background='rgb(75, 223, 131)'; this.style.color='black' "
+                    onMouseOut="this.style.background='rgb(60, 61, 61)'; this.style.color='rgb(75, 223, 131)'">Acessar
+                    sua Lista de Desejos</a>
+            </li>
+        </ol>
+    </nav>
+    <br>
+    <br>
+    
+    <div id="date" style=" color:rgb(75, 223, 131);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(60, 61, 61);
+    border-radius: 20px;
+    width: 360px; 
+    "></div>
+
+    <script>
+        navigator.serviceWorker.register('/sw.js');
+    </script>
+</body>
+
+</html>
