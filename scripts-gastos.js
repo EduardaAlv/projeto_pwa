@@ -151,16 +151,24 @@ function atualizarDados(id, gasto){
         arrayDesejos[i].valor = gasto.valor;
        }
     }
+    let notesEdit = JSON.parse(localStorage.getItem("meuArr"))
+        .filter(item => item.id !== id)
+
+    notesEdit.push(gasto);
+    localStorage.setItem("meuArr", JSON.stringify(notesEdit));
 }
 
 //Exclui o objeto de acordo com o id
 function excluir(id){
     alert('Deseja realmente Excluir?')
+
     let tbody = document.getElementById('tbody');
     for(let i = 0; i < arrayDesejos.length; i++){
         if(arrayDesejos[i].id == id){
             arrayDesejos.splice(i, 1);
             tbody.deleteRow(i);
+            localStorage.removeItem(arrayDesejos[i]);
         }
     }
+    arrayDesejos = localStorage.meuArr;
 }

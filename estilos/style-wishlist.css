@@ -1,0 +1,276 @@
+body{
+    margin: auto;
+    background-color: rgb(28, 29, 29);  
+    text-align: center;
+    max-width: 600px;
+    color: rgb(225, 228, 228);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:100%;   
+}
+h1{  
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color:  rgb(60, 61, 61);
+    font-size: 150%;
+    max-width: 660px;
+    width: 660px;
+    height: 60px;
+    border: 10px;
+    border-radius: 40px;
+    padding: 20px 20px;    
+}
+table{
+    background-color:  rgb(60, 61, 61);
+    font-size: 110%;      
+    border: 10px;
+    border-radius: 40px;
+    padding: 40px 40px; 
+}
+td {
+    border: 1px solid  rgb(129, 131, 131);
+    border-left-width: 0;
+    min-width: 120px;
+    height: 18px;
+  }
+  
+  td:first-child {
+    border-left-width: 1px;
+  }
+thead{
+    font-size: 120%;
+    background-color:  rgb(86, 88, 88);
+}
+tfoot{
+    font-size: 92%;
+}
+
+img{
+    border-radius: 2px;
+}
+nav{
+    background-color: rgb(107, 107, 107);
+    color:rgb(75, 223, 131);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 60px;
+    width: 260px;
+    height:1.3cm;
+    padding: 4px 10px;  
+    margin-bottom: 30px;
+    margin-top: 20px;    
+}
+nav:hover{
+    background-color: rgb(68, 67, 67);
+}
+a{
+    background-color: rgb(107, 107, 107);
+    border-radius: 60px;
+    text-decoration: none;
+    color: rgb(225, 228, 228);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:110%;     
+    padding: 3px 5px;  
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+a:hover{
+    background-color: rgb(68, 67, 67);
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:100%; 
+    color:rgb(75, 223, 131);
+    background-color: rgb(58, 57, 57); 
+    padding: 3px 5px;   
+    border-radius: 60px;
+}
+ul{ 
+    font-size:100%; 
+    padding: 10px 10px;   
+    border-radius: 60px;
+    list-style:none;
+    
+}
+input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+}
+
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    top: 0;
+    left: 0;
+    border: 2px solid rgb(188, 87, 201);
+    border-radius: 3.5px;
+    background-color: white;
+}
+
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 7px;
+    border: solid rgb(0, 0, 0);
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 6px;
+}
+
+legend {
+    color: rgb(225, 228, 228);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+}
+
+label {
+    color: rgb(225, 228, 228);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+}
+
+select {
+    background-color: rgb(107, 107, 107);
+    color: rgb(75, 223, 131);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    border-radius: 60px;
+}
+
+input {
+    background-color: rgb(107, 107, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    border-radius: 60px;
+    padding: 5px;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+}
+
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    top: 0;
+    left: 0;
+    border: 2px solid #797878;
+    border-radius: 4px;
+    background-color: white;
+}
+
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 7px;
+    border: solid rgb(0, 0, 0);
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 6px;
+}
+
+input[type=button] {
+    color: rgb(240, 236, 236);
+}
+:hover[type=button]{
+    background-color: rgb(88, 88, 88);
+}
+::placeholder {
+    color: rgb(211, 75, 223);
+    font-size: 85%;
+    padding: 10px 10px;
+}
+
+div {
+    font-size: 90%;
+}
+
+option {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70%;
+}
+
+nav, button {
+
+    background-color: rgb(107, 107, 107);
+    color: rgb(75, 223, 131);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 60px;
+    width: 100px;
+    height: 60px;
+    padding: 4px 0px;
+}
+
+nav:hover {
+    background-color: rgb(88, 88, 88);
+}
+
+a, button {
+    text-decoration: none;
+    color: rgb(225, 228, 228);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+
+table, td, img{
+    width: 22px;
+}
+
+
+@media screen and (max-width: 1330px) {
+    .table {
+        width: 50%;
+    }
+    .form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1064px) {
+    .container {
+        width: 90%;
+        height: auto;
+    }
+    .input-group {
+        flex-direction: column;
+        z-index: 5;
+        padding-right: 5rem;
+        max-height: 10rem;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+    }
+    .gender-inputs {
+        margin-top: 2rem;
+    }
+    .gender-group {
+        flex-direction: column;
+    }
+    .gender-title h6 {
+        margin: 0;
+    }
+    .gender-input {
+        margin-top: 0.5rem;
+    }
+}
