@@ -46,4 +46,4 @@ Explicação da aplicação:
 **A aplicação está completa?** Sim
 
 **OBS:**
-~ Esse trabalho foi de grande valia para mim, consegui aprender várias coisas que não sabia sobre o Javascript, CSS e HTML!
+~ Esse trabalho foi de grande valia para mim, consegui aprender várias coisas que não sabia sobre o Javascript!
