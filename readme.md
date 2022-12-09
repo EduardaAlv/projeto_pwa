@@ -44,6 +44,3 @@ Explicação da aplicação:
 **A aplicação está funcionando corretamente?** Sim
 
 **A aplicação está completa?** Sim
-
-**OBS:**
-~ Esse trabalho foi de grande valia para mim, consegui aprender várias coisas que não sabia sobre o Javascript!
