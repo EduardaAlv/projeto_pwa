@@ -26,21 +26,3 @@ Explicação da aplicação:
 
 **Explicação dos dados que a aplicação armazena:**
   ~ Os dados são armazenados em uma array de objetos do tipo **Gastos**, que é composto por um **id**, **nome**, **valor**, o objeto é criado a partir dessa classe, depois disso, o array é armazenado em um localStorage.
-
-**Resposta (sim ou não) às seguintes questões, que você pode copiar para seu documento readme.md:**
-
-**A aplicação é original e não uma cópia da aplicação de um colega ou de uma aplicação já existente?:** Sim
-
-**A aplicação tem pelo menos duas interfaces (telas ou páginas) independentes?** Sim
-
-**A aplicação armazena e usa de forma relevante dados complexos (mais de um atributo)?** Sim
-
-**A aplicação possui um manifesto para instalação no dispositivo do usuário?** Sim
-
-**A aplicação possui um service worker que permite o funcionamento off-line?** Sim
-
-**O código da minha aplicação possui comentários explicando cada operação?** Sim
-
-**A aplicação está funcionando corretamente?** Sim
-
-**A aplicação está completa?** Sim
