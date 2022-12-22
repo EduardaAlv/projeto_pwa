@@ -22,7 +22,7 @@ Explicação da aplicação:
   A exclusão é realizada através do botão com o icon de lixeira.
   A edição é realizada através do botão com o icon de um lápis, ao clicar em editar, os dados inseridos são retornados para os input's de descrição e valor, e ao clicar em "Atualizar", os dados são atualizados.
 
-  ~ **Ambas as telas** contém o **localStorage** para o armazenamento dos dados.
+  ~ **Ambas as telas** possuem o **localStorage** para o armazenamento dos dados.
 
 **Explicação dos dados que a aplicação armazena:**
   ~ Os dados são armazenados em uma array de objetos do tipo **Gastos**, que é composto por um **id**, **nome**, **valor**, o objeto é criado a partir dessa classe, depois disso, o array é armazenado em um localStorage.
