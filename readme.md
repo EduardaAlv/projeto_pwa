@@ -1,7 +1,7 @@
 ---
 ---
 
-## Projeto 1 PWA
+### Projeto 1 PWA
 #### Nome da aplicação: Gestão de gastos e lista de desejos
 #### Nome: Eduarda Santos Alves 
 ##### Sistemas de Informação - PUC Minas
