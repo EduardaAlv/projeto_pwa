@@ -3,10 +3,7 @@
 
 ### Projeto 1 PWA
 #### Nome da aplicação: Gestão de gastos e lista de desejos
-#### Nome: Eduarda Santos Alves 
-##### Sistemas de Informação - PUC Minas
-##### Tópicos Especiais em Sistemas de Informação: Aplicações Híbridas
-#####
+
 Explicação da aplicação:
   ~ É uma aplicação que realiza a inserção, exibição, edição e exclusão de uma lista de gastos, que é exibida em uma tabela, que realiza a soma dos gastos inseridos e exibe no final da tabela. Também é realizada a inserção, exibição, edição e exclusão de uma lista de desejos, que é exibida em uma tabela e realiza a soma dos gastos inseridos e exibe a soma do valor dos desejos inseridos no final da tabela.
 
