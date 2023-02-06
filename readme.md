@@ -23,3 +23,30 @@ Explicação da aplicação:
 
 **Explicação dos dados que a aplicação armazena:**
   ~ Os dados são armazenados em uma array de objetos do tipo **Gastos**, que é composto por um **id**, **nome**, **valor**, o objeto é criado a partir dessa classe, depois disso, o array é armazenado em um localStorage.
+  
+  
+---
+---
+
+### Project 1 PWA
+#### Application name: Spending & Wishlist Management
+
+Application Explanation:
+  ~ It is an application that performs the insertion, display, editing and deletion of a list of expenses, which is displayed in a table, which performs the sum of the inserted expenses and displays it at the end of the table. The insertion, display, editing and deletion of a wish list is also performed, which is displayed in a table and performs the sum of the expenses entered and displays the sum of the value of the wishes inserted at the end of the table.
+
+**Description of screens:**
+  ~ **Main Screen:** Which displays two links that redirect to the Spending Registration and Wish List Registration screens
+  ~ **Expenses Registration Screen:** Expenses registration screen, which inserts, displays, edits and deletes a list of expenses in a table, and displays the sum of expenses entered at the end of the table.
+  The inclusion is carried out through the "Add" button.
+  Deletion is carried out using the button with the trash can icon.
+  Editing is performed using the button with a pencil icon, when clicking on edit, the inserted data is returned to the description and value inputs, and when clicking on "Update", the data is updated.
+
+  ~ **Wish List Screen:** Wish List screen, which inserts, displays, edits and deletes a wish list in a table, and displays the sum of the value of the wishes entered at the end of the table.
+  The inclusion is carried out through the "Add" button.
+  Deletion is carried out using the button with the trash can icon.
+  Editing is performed using the button with a pencil icon, when clicking on edit, the inserted data is returned to the description and value inputs, and when clicking on "Update", the data is updated.
+
+  ~ **Both screens** have **localStorage** for data storage.
+
+**Explanation of the data that the application stores:**
+  ~ The data is stored in an array of objects of type **Expenses**, which is composed of an **id**, **name**, **value**, the object is created from this class, after that, the array is stored in a localStorage.
