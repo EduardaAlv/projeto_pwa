@@ -1,5 +1,4 @@
----
----
+
 
 ### Projeto 1 PWA
 #### Nome da aplicação: Gestão de gastos e lista de desejos
@@ -25,8 +24,6 @@ Explicação da aplicação:
   ~ Os dados são armazenados em uma array de objetos do tipo **Gastos**, que é composto por um **id**, **nome**, **valor**, o objeto é criado a partir dessa classe, depois disso, o array é armazenado em um localStorage.
   
   
----
----
 
 ### Project 1 PWA
 #### Application name: Spending & Wishlist Management
