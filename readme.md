@@ -1,4 +1,3 @@
-
 ### Projeto 1 PWA
 #### Nome da aplicação: Gestão de gastos e lista de desejos
 
