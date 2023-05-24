@@ -44,4 +44,4 @@ Application Explanation:
 **Explanation of the data that the application stores:**
   ~ The data is stored in an array of objects of type **Expenses**, which is composed of an **id**, **name**, **value**, the object is created from this class, after that, the array is stored in a localStorage.
 ------------------------------------------------------
------------------------------------------------------------
+------------------------------------------------------
