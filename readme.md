@@ -39,10 +39,11 @@ Application Explanation:
   Deletion is carried out using the button with the trash can icon.
   Editing is performed using the button with a pencil icon, when clicking on edit, the inserted data is returned to the description and value inputs, and when clicking on "Update", the data is updated.
 
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------
-    ----------------------------------------------------------------------------------------------------------------------------------------------------------
-
   ~ **Both screens** have **localStorage** for data storage.
 
 **Explanation of the data that the application stores:**
   ~ The data is stored in an array of objects of type **Expenses**, which is composed of an **id**, **name**, **value**, the object is created from this class, after that, the array is stored in a localStorage.
+
+
+  
+  
