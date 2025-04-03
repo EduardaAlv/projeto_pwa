@@ -8,7 +8,7 @@ Explicação da aplicação:
   ~ **Tela Principal:** Que exibe dois links que redirecionam para as telas de Cadastro de gastos e Cadastro da Lista de desejos
   ~ **Tela de Cadastro de gastos:** Tela de cadastro de gastos, que realiza a inserção, exibição, edição e exclusão de uma lista de gastos em uma tabela, e exibe a soma dos gastos inseridos no final da tabela.
   A inclusão é realizada através do botão "Adicionar".
-  A exclusão é realizada através do botão com o icon de lixeira.
+  A exclusão é realizada através do botão com o  icon de lixeira.
   A edição é realizada através do botão com o icon de um lápis, ao clicar em editar, os dados inseridos são retornados para os input's de descrição e valor, e ao clicar em "Atualizar", os dados são atualizados.
 
   ~ **Tela de Cadastro de desejos:** Tela de cadastro de desejos, que realiza a inserção, exibição, edição e exclusão de uma lista de desejos em uma tabela, e exibe a soma do valor dos desejos inseridos no final da tabela.
