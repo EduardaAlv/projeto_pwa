@@ -33,7 +33,7 @@ Application Explanation:
   The inclusion is carried out through the "Add" button.
   Deletion is carried out using the button with the trash can icon.
   Editing is performed using the button with a pencil icon, when clicking on edit, the inserted data is returned to the description and value inputs, and when clicking on "Update", the data is updated.
-
+ 
   ~ **Wish List Screen:** Wish List screen, which inserts, displays, edits and deletes a wish list in a table, and displays the sum of the value of the wishes entered at the end of the table.
   The inclusion is carried out through the "Add" button.
   Deletion is carried out using the button with the trash can icon.
