@@ -4,7 +4,7 @@
 Explicação da aplicação:        
   ~ É uma aplicação que realiza a inserção, exibição, edição e exclusão de uma lista de gastos, que é exibida em uma tabela, que realiza a soma dos gastos inseridos e exibe no final da tabela. Também é realizada a inserção, exibição, edição e exclusão de uma lista de desejos, que é exibida em uma tabela e realiza a soma dos gastos inseridos e exibe a soma do valor dos desejos inseridos no final da tabela. 
  
-**Descrição das telas:** 
+**Descrição das telas:**  
   ~ **Tela Principal:** Que exibe dois links que redirecionam para as telas de Cadastro de gastos e Cadastro da Lista de desejos
   ~ **Tela de Cadastro de gastos:** Tela de cadastro de gastos, que realiza a inserção, exibição, edição e exclusão de uma lista de gastos em uma tabela, e exibe a soma dos gastos inseridos no final da tabela.
   A inclusão é realizada através do botão "Adicionar".
